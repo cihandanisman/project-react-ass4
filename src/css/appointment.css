@@ -1,0 +1,23 @@
+.appointment {
+    background-color: rgba(128, 128, 128, 0.445);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 1rem;
+}
+.x {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    &:hover {
+        cursor: pointer;
+    }
+}
+h2 {
+    color: purple;
+    text-align: center;
+    padding: 10px;
+}
